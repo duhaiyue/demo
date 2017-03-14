@@ -1,0 +1,156 @@
+/* 
+* @Author: Marte
+* @Date:   2016-12-01 23:05:40
+* @Last Modified by:   Marte
+* @Last Modified time: 2016-12-08 01:19:39
+*/
+        *{margin:0;padding:0;}
+        body{
+            font:12px arial;
+        }
+        header{
+            overflow: hidden;
+            margin-top:20px;
+        }
+        header nav{
+            float:right;
+            margin-right:10px;
+        }
+        header nav a{
+            margin-left:20px;
+            color:#333;
+            font-size:13px;
+            font-weight: 700;
+        }
+        /* 主体部分 */
+        .content{
+            text-align: center;
+            position:absolute;
+            top:20%;
+            left:50%;
+            margin-left:-278px;
+        }
+        .content input{
+            width:500px;
+            height:36px;
+        }
+        .content button{
+            width:100px;
+            height:40px;
+            background:#3385ff;
+            outline:none;
+            color:#fff;
+            border:0;
+            margin-left:-4px;
+        }
+        footer{
+            padding-top:30px;
+            position: absolute;
+            width:100%;
+            text-align: center;
+            height:100px;
+            bottom:20px;
+        }
+        .more{
+            display:inline-block;
+            width:60px;
+            height:23px;
+            background:#38f;
+            color:#fff;
+            text-decoration:none;
+            line-height: 23px;
+            text-align: center;
+            font-weight: 100;
+        }
+        .more:hover {
+            height:700px;
+            background:#f0f0f0 ;
+            color:#000;
+        }
+        .fot{
+            display:inline-block;
+            margin:0 auto;
+        }
+
+        .cord{
+            display:inline-block;
+        }
+
+        .cord1-img{
+          background: url(https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/home/img/qrcode/zbios_efde696.png) 0 0 no-repeat;
+          float: left;
+          width: 60px;
+          height: 60px;
+        }
+        .cord1-text{
+            float:left;
+            margin:8px 0 0 10px;
+            line-height:23px;
+        }
+        .cord1,.cord2{
+            float:left;
+        }
+        .cordtext{
+            margin-left:33px;
+            display:inline-block;
+            position:relative;
+        
+        }
+        .cordtext p .bb{
+            margin-left:20px;
+
+        }
+        .cordtext p a{
+            color:#999;
+        }
+        .cordtext p {
+            height:25px;
+        }
+        .soutu-btn{
+            z-index: 1;
+          position: absolute;
+          height: 16px;
+          width: 18px;
+          right:110px;
+          top:164px;
+          background: #fff url(https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/soutu/img/camera_new_5606e8f.png) no-repeat;
+          background-image: -webkit-image-set(url(https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/soutu/img/camera_new_5606e8f.png) 1x,url(https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/soutu/img/camera_new_x2_fb6c085.png) 2x);
+        }
+        #sz:hover .bdpfmenu{
+            display:block;
+
+        }
+        #wrapper .bdpfmenu a:link, #wrapper .bdpfmenu a:visited {
+          background: #fff;
+          color: #333;
+        }
+        #wrapper .bdnuarrow {
+  width: 0;
+  height: 0;
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  margin-left: -5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
